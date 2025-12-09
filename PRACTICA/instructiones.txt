@@ -1,0 +1,23 @@
+ENTORNO VIRTUAL
+
+conda init  (Iniciar por primera vez conda para entornos virtual)
+
+conda deactivate (desactivar entorno)
+
+conda create -n flask_api python=3.13 (crear entorno con el nombre flask_api especificando version)
+
+conda activate flask_api (activar el entorno flask_api)
+
+(flask_api) PS C:\Users\ggarc> (si sale flask_api es que esta activado)
+
+
+Ir a la carpeta destino en powershell
+    cd C:\Users\ggarc\Desktop\4GEEKS\PYTHON\CREAR_API_FLASK\python-flask-api-tutorial\
+
+
+Para ejecutar un fichero en la terminal (en la ruta correca)
+    python nombreDelArchivo
+
+
+Descargarse una libreria:
+    pip install flask
